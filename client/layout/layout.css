@@ -1,0 +1,23 @@
+.center {
+    text-align: center;
+}
+
+.logo {
+    width: 100%;
+    position: relative;
+    overflow: auto;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.banner {
+    width: 60%;
+}
+
+.banner2 {
+    width: 50%;
+}
+
+.background {
+    margin-top: -5%;
+}

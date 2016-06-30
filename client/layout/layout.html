@@ -1,0 +1,34 @@
+<template name="layout">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+</head>
+<div id="mainSidebar" class="ui sidebar inverted vertical menu">
+    <div class="item">
+        <div class="center fullWidth headerTop">
+            <img class="banner" src="/ttMenu.png">
+        </div>
+    </div>
+    <a class="item driversign sideMenuDeactivate">
+        <i class="inverted user icon"></i>
+        Driver Sign in
+    </a>
+    <a class="item drivermap sideMenuDeactivate">
+        <i class="inverted map outline icon"></i>
+        Driver Map
+    </a>
+    <a class="item usermap sideMenuDeactivate">
+        <i class="inverted map outline icon"></i>
+        User Map
+    </a>
+    <a class="item acknowledgements sideMenuDeactivate">
+        <i class="inverted star icon"></i>
+        Acknowledgments
+    </a>
+</div>
+<div class="pusher">
+    <div id="main" class="">
+        {{>sAlert}}
+        {{> yield}}
+    </div>
+</div>
+</template>

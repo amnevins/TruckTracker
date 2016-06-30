@@ -1,0 +1,17 @@
+<head>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyAU_YcWnWXC5Pk-NH-yhLU00W7vOUMoeGI&libraries=places,geometry"></script>
+</head>
+<template name="map">
+    {{>sAlert}}
+    {{>header}}
+<div class="background">
+    <div class="ui big brown top attached button iceCreamFind">Nearest Ice Cream Truck</div>
+    {{#if iceCream}}
+        <div class="ui big yellow top attached button iceCreamWaiting">Mmmm... Ice Cream is on the way!</div>
+    {{else}}
+        <div class="ui big pink top attached button iceCreamRequest">Request Ice Cream Truck</div>
+        {{/if}}
+<div id="map-canvas" class="map-canvas">
+</div>
+</div>
+</template>

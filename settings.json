@@ -1,0 +1,5 @@
+{ "galaxy.meteor.com":
+  { "env":
+    { "ROOT_URL":"http://trucktracker.amnevins.com", "MONGO_URL":"mongodb://amnevins:icu81234@ds017014-a0.mlab.com:17014,ds017014-a1.mlab.com:17014/trucktrackerdb?replicaSet=rs-ds017014", "NODE_ENV":"production" }
+  }
+}
